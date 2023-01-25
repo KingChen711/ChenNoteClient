@@ -17,8 +17,7 @@ export default function Notes(props) {
   return (
     <Masonry
       breakpointCols={breakpointObj}
-      className="flex gap-4"
-      columnClassName="my-masonry-grid_column"
+      className="flex gap-4 p-6"
     >
       {notes?.map((noteItem) => {
         return (
